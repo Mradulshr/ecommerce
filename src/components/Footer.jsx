@@ -18,7 +18,7 @@ const Left = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
-  border: 1px solid blue;
+  // border: 1px solid blue;
 `;
 
 const Logo = styled.h1`
@@ -48,7 +48,7 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
-  border: 1px solid red;
+  // border: 1px solid red;
 `;
 
 const Title = styled.h3`
@@ -72,7 +72,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
-  border: 1px solid green;
+  // border: 1px solid green;
 `;
 
 const ContactItem = styled.div`

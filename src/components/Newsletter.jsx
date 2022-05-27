@@ -8,7 +8,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid red;
+  // border: 1px solid red;
 `;
 
 const Title = styled.h1`
