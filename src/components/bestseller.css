@@ -1,0 +1,102 @@
+/* src/components/Bestsellers.css */
+.bestsellers-container {
+  padding: 20px;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.bestsellers-container h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  /* margin-right: 100px; */
+  padding: 20px;
+}
+
+.bestsellers-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bestseller-item {
+  position: relative;
+  width: 22%;
+  margin: 20px 0;
+}
+
+.bestseller-image {
+  width: 100%;
+  height: auto;
+  /* border-radius: 10px; */
+}
+
+.sale-tag {
+  background-color: blue;
+  color: white;
+  /* border-radius: 10px; */
+  /* font-size: 8px; */
+  /* border: 1px solid transparent; */
+  border-radius: 4rem;
+  /* display: inline-block; */
+  padding: 5px 10px;
+  position: absolute;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  /* padding: 0.6rem 1.3rem; */
+  text-align: center;
+  background-color: rgb(51, 79, 180);
+  border-color: rgb(51 79 180);
+  color: rgb(255, 255, 255);
+  word-break: break-word;
+  top: 70%;
+  left: 10px;
+}
+
+.bestseller-details {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.bestseller-details h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: 200;
+}
+
+.bestseller-rating {
+  font-size: 24px;
+  color: #111;
+}
+
+.bestseller-prices {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.sale-price {
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+
+.view-all-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  /* border-radius: 5px; */
+}
+
+.view-all-button:hover {
+  background-color: #333;
+}

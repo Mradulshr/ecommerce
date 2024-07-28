@@ -1,0 +1,35 @@
+.category-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.category-item {
+  position: relative;
+  width: 48%;
+}
+
+.category-image {
+  width: 100%;
+  height: auto;
+  /* border-radius: 10px; */
+}
+
+.category-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.category-title {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.category-title:hover {
+  text-decoration: underline;
+}
