@@ -1,0 +1,9 @@
+.footer_links ul a {
+  margin: 5px;
+  color: gray;
+  text-decoration: none;
+  font-weight: 300;
+}
+.footer_links ul a:hover {
+  text-decoration: underline;
+}
