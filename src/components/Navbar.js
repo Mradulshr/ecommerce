@@ -1,10 +1,20 @@
-// src/components/Navbar.js
-import React from "react";
+import React, { useContext } from "react";
 import "./navbar.css";
 import { CiShoppingCart } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
+import { CartContext } from "../context/CartContext";
+
 const Navbar = () => {
+  const { cart } = useContext(CartContext);
+
+  // Calculate the total number of items in the cart
+  const totalItems = cart.reduce(
+    (total, product) => total + product.quantity,
+    0
+  );
+
   return (
     <div className="navbar-container">
       <div className="navbar-top">
@@ -18,7 +28,7 @@ const Navbar = () => {
           <img src={logo} alt="Logo" />
         </div>
         <div className="navbar-links">
-          <a href="#">Home</a>
+          <a href="/home">Home</a>
           <a href="#">Unisex Round Neck T-Shirts</a>
           <a href="#">Kids T-Shirts</a>
           <a href="#">Combo Badges</a>
@@ -32,11 +42,11 @@ const Navbar = () => {
           <a href="#">Track Your Order</a>
         </div>
         <div className="navbar-icons">
-          <CiShoppingCart />
+          <Link to="/cart" className="cart-icon">
+            <CiShoppingCart />
+            {totalItems > 0 && <span className="cart-count">{totalItems}</span>}
+          </Link>
           <CiSearch />
-
-          {/* <a href="#"><i className="fa fa-search"></i></a> */}
-          {/* <a href="#"><i className="fa fa-shopping-cart"></i></a> */}
         </div>
       </div>
     </div>

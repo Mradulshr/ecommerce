@@ -26,3 +26,38 @@
 .shop-now-button:hover {
   background-color: #f0f0f0;
 }
+
+/* src/styles.css */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  width: 200px;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  text-align: center;
+}
+
+.product-details {
+  display: flex;
+  gap: 20px;
+}
+
+.product-images img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.product-info {
+  max-width: 600px;
+}
+
+.product-sizes span,
+.product-colors span {
+  margin-right: 10px;
+}

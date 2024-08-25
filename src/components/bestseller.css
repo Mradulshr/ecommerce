@@ -2,13 +2,11 @@
 .bestsellers-container {
   padding: 20px;
   text-align: center;
-  /* border: 1px solid red; */
 }
 .bestsellers-container h2 {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: left;
-  /* margin-right: 100px; */
   padding: 20px;
 }
 
@@ -27,23 +25,17 @@
 .bestseller-image {
   width: 100%;
   height: auto;
-  /* border-radius: 10px; */
 }
 
 .sale-tag {
   background-color: blue;
   color: white;
-  /* border-radius: 10px; */
-  /* font-size: 8px; */
-  /* border: 1px solid transparent; */
   border-radius: 4rem;
-  /* display: inline-block; */
   padding: 5px 10px;
   position: absolute;
   font-size: 1rem;
   letter-spacing: 0.1rem;
   line-height: 1;
-  /* padding: 0.6rem 1.3rem; */
   text-align: center;
   background-color: rgb(51, 79, 180);
   border-color: rgb(51 79 180);

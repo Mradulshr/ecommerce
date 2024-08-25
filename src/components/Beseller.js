@@ -1,6 +1,7 @@
 // src/components/Bestsellers.js
 import React from "react";
 import "./bestseller.css";
+import { Link } from "react-router-dom";
 import bestsellerimage1 from "../assets/1.png";
 import bestsellerimage2 from "../assets/2.png";
 import bestsellerimage3 from "../assets/3.png";
@@ -71,7 +72,10 @@ const Bestsellers = () => {
           </div>
         ))}
       </div>
-      <button className="view-all-button">View all</button>
+      {/* <button className="view-all-button">View all</button> */}
+      {/* <button className="view-all-button"> */}
+      <Link to="/bestsellers">View all</Link>
+      {/* </button> */}
     </div>
   );
 };

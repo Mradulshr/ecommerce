@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="image-section">
         <img src={homeimage} alt="Mahua Tribe" className="image" />
         <button className="shop-now-button">Shop Now</button>
