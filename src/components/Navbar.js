@@ -28,7 +28,7 @@ const Navbar = () => {
           <img src={logo} alt="Logo" />
         </div>
         <div className="navbar-links">
-          <a href="/home">Home</a>
+          <a href="/">Home</a>
           <a href="#">Unisex Round Neck T-Shirts</a>
           <a href="#">Kids T-Shirts</a>
           <a href="#">Combo Badges</a>
